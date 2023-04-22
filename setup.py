@@ -4,14 +4,9 @@ import platform
 from distutils.core import setup, Extension
 from distutils.sysconfig import get_python_inc
 
-
-# python include dir
 incdir = os.path.join(get_python_inc())
-# cpp flags
 cpp_args = ['-std=c++17']
-# include directories
 include_dirs = [incdir, './pybind11/include', './SEAL/native/src']
-# library path
 extra_objects = ['./SEAL/native/lib/libseal-3.4.a']
 
 if(platform.system() == "Windows"):
@@ -36,9 +31,9 @@ ext_modules = [
 setup(
     name='seal',
     version='3.4.5',
-    author='Huelse',
-    author_email='huelse@oini.top',
-    description='Python wrapper for the Microsoft SEAL',
+    author='Deku',
+    author_email='myemailaddressisdeku@gmail.com',
+    description=' Design and implement a cloud service that uses homomorphic encryption to process sensitive healthcare data securely and efficientlyL',
     url='https://github.com/Huelse/SEAL-Python',
     license='MIT',
     ext_modules=ext_modules,
