@@ -37,9 +37,6 @@ pip3 install -r requirements.txt
 python3 setup.py build_ext -i
 # or install
 python3 setup.py install
-```
-
-Docs: [setuptools](https://docs.python.org/3/distutils/configfile.html) [pybind11](https://pybind11.readthedocs.io/en/master/index.html)
 
 ### Windows
 
