@@ -1,5 +1,7 @@
 # Homomorphic encryption using Docker platform
-Design and implement a cloud service that uses homomorphic encryption to process sensitive healthcare data securely and efficiently.
+Design and implement a cloud service that uses homomorphic encryption to process sensitive healthcare data securely and efficiently. This service ensure the
+privacy and confidentiality of patient data while allowing computation on the encrypted data. It also handle the noise produced during computation and use noise reduction methods such as bootstrapping to achieve better asymptotic performance.
+
 ## Microsoft SEAL Wrapper For Python and Health Score Predicting Model
 
 Microsoft [**SEAL**](https://github.com/microsoft/SEAL) is an easy-to-use open-source ([MIT licensed](https://github.com/microsoft/SEAL/blob/master/LICENSE)) homomorphic encryption library developed by the Cryptography Research group at Microsoft.
